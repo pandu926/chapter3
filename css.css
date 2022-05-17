@@ -1,0 +1,32 @@
+body {
+
+    
+}
+
+header {
+    background-image: url(bg.png);
+    background-size: 100%;
+    width: auto;
+    height: auto;
+}
+#navbar {
+    background-color: black;
+    color: white;
+}
+#navbar a {
+    padding-right: 30px;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    size: 12px;
+}
+
+#navbar img {
+    width: 77px;
+    height: 33px;
+}
+#navbar .container {
+    padding-top: 29px;
+    padding-bottom: 28px;
+    
+}
