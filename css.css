@@ -1,13 +1,13 @@
 body {
-
-    
-}
-
-header {
     background-image: url(bg.png);
     background-size: 100%;
     width: auto;
     height: auto;
+}
+
+header {
+    
+
 }
 #navbar {
     background-color: black;
@@ -29,4 +29,67 @@ header {
     padding-top: 29px;
     padding-bottom: 28px;
     
+}
+
+#navbar {
+    opacity: 0.5;
+}
+
+#isi .container p {
+    position: absolute;
+    height: 73.12px;
+    left: 9.22%;
+    right: 10.47%;
+    top: calc(50% - 73.12px/2 - 130.06px);
+    
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 83px;
+    text-align: center;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    
+    color: white;
+    margin-top: 50px;
+}
+
+#isi .container h3 {
+position: absolute;
+left: 30.84%;
+right: 29.66%;
+top: 46.23%;
+bottom: 50.89%;
+
+font-family: 'Arial';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 28px;
+/* identical to box height */
+
+letter-spacing: 2px;
+
+color: #FFFFFF;
+}
+
+#isi .container button {
+position: absolute;
+top: 370px;
+left: 39%;
+height: 40px;
+width: 240px;
+background-color: #FFB548;
+border: none;
+}
+
+#isi .container a {
+    text-decoration: none;
+    height: 20px;
+    font-size: 27px;
+    text-transform: uppercase;
+    color: black;
+    font-family: arial;
+    font-weight: bold;
 }
