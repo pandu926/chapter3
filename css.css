@@ -93,3 +93,24 @@ border: none;
     font-family: arial;
     font-weight: bold;
 }
+
+#isi #scrool {
+    position: absolute;
+    left: 44.66%;
+    right: 47.61%;
+    top: 74.03%;
+    bottom: 6.4%;
+    
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 22px;
+    /* or 183% */
+    
+    text-align: justify;
+    text-transform: uppercase;
+    
+    color: #FFFFFF;
+
+}
