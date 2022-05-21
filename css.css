@@ -1,160 +1,49 @@
-body {
-    background-image: url(bg.png);
-    background-size: 100%;
-    background-repeat: no-repeat;
-    width: auto;
-    height: auto;
-}
-
 header {
-    
-
+    background-image: url(assets/main-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: auto;
 }
-#navbar {
-    background-color: black;
+nav {
+    opacity: 0.6;
+}
+header nav .nav-link {
+    color: white;
+    opacity: 1;
+}
+a:hover{
     color: white;
 }
-#navbar a {
-    padding-right: 30px;
-    color: white;
-    text-decoration: none;
-    text-transform: uppercase;
-    size: 12px;
+#navbarText ul {
+    margin-left: 20%;
 }
-
-#navbar img {
-    width: 77px;
-    height: 33px;
+nav li {
+    padding-left: 20px;
+    font-size: 15px;
 }
-#navbar .container {
-    padding-top: 29px;
-    padding-bottom: 28px;
-    
-}
-
-#navbar {
-    opacity: 0.5;
-}
-
-#isi .container p {
+#content {
     position: absolute;
-    height: 73.12px;
-    left: 9.22%;
-    right: 10.47%;
-    top: calc(50% - 73.12px/2 - 130.06px);
-    
-    font-family: 'Arial';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 72px;
-    line-height: 83px;
-    text-align: center;
-    letter-spacing: 3px;
-    text-transform: uppercase;
-    
+    top: 30%;
+    left: 20%;
+}
+#content h1,h3 {
     color: white;
-    margin-top: 50px;
+    font-size: 70px;
 }
-
-#isi .container h3 {
-position: absolute;
-left: 30.84%;
-right: 29.66%;
-top: 46.23%;
-bottom: 50.89%;
-
-font-family: 'Arial';
-font-style: normal;
-font-weight: 400;
-font-size: 24px;
-line-height: 28px;
-/* identical to box height */
-
-letter-spacing: 2px;
-
-color: #FFFFFF;
-}
-
-#isi .container button {
-position: absolute;
-top: 370px;
-left: 39%;
-height: 40px;
-width: 240px;
-background-color: #FFB548;
-border: none;
-}
-
-#isi .container a {
-    text-decoration: none;
-    height: 20px;
-    font-size: 27px;
-    text-transform: uppercase;
-    color: black;
-    font-family: arial;
-    font-weight: bold;
-}
-
-#isi #scrool {
+#content h3 {
+    margin-top: 20px;
+    font-size: 23px;
+    font-weight: 400;
+    left: 25%;
     position: absolute;
-    left: 44.66%;
-    right: 47.61%;
-    top: 74.03%;
-    bottom: 6.4%;
-    
-    font-family: 'Open Sans';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 12px;
-    line-height: 22px;
-    /* or 183% */
-    
-    text-align: justify;
-    text-transform: uppercase;
-    
-    color: #FFFFFF;
-
 }
-
-#games {
-background-image: url(assets/the-games-bg.jpg);
-background-size: cover;
-position: absolute;
-width: 100%;
-height: 900.33px;
-left: -1.55px;
-top: 800.58px;
+#content button {
+    margin-top: 100px;
+    margin-left: 33%;
+    width: 250px;
+    height: 55px;
 }
-
-#games p, h1 {
-position: absolute;
-left: 5.7%;
-right: 76.09%;
-top: 28.48%;
-bottom: 68.64%;
-
-font-family: 'Arial';
-font-style: normal;
-font-weight: 400;
-font-size: 24px;
-line-height: 28px;
-letter-spacing: 2px;
-
-color: #FFFFFF;
-}
-
-#games h1 {
-    font-size: 50px;
-    line-height: 64px;
-    letter-spacing: 3px;
-    text-transform: uppercase;
-    left: 10%;
-    top: 35%;
-    background-color: blue;
-}
-
-#games img {
-    margin-top: 300px;
-    width: 700px;
-    height: 400px;
+#content .navbar-text {
+    position: absolute;
+    margin-top: 30%;
+    left: 42%;
 }

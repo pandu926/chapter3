@@ -1,66 +1,82 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css.css">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <title>Document</title>
-</head>
-<body>
+    <!-- Option 1: Include in HTML -->
+    <script src="https://kit.fontawesome.com/c217f13c76.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css.css">
+
+    <title>Hello, world!</title>
+  </head>
+  <body>
     <header>
-        
-        <div id="navbar">
-           <div class="container">
-                <div class="row">
-                    <div class="col">
-                        <img src="bg.png" alt="">
-                    </div>
-                    <div class="col-6">
-                        <a href="">home</a>
-                        <a href="">work</a>
-                        <a href="">contact</a>
-                        <a href="">about me</a>
-                    </div>
-                    <div class="col-3 justify-content-end">
-                        <a href="">log in</a>
-                        <a href="">sign up</a>
-                    </div>
-                </div>
-           </div>
-        </div>
-    </header>
-    <aside>
-        <div id="isi">
+        <img src="bg.png" alt="" class="img-fluid position-absolute">
+        <nav class="navbar navbar-expand-lg bg-black text-uppercase fw-bold">
             <div class="container">
-                <p>play tradition play</p>
-                <h3>Experience new traditional game play</h3>
-                <button>
-                    <a href="#">play now</a>
-                </button>
-                <p id="scrool">the story</p>
+              <a class="navbar-brand" href="#">LOGO</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarText">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 fw-light ">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">work</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">contact</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">about me</a>
+                  </li>
+                </ul>
+                <span class="navbar-text">
+                    <a class="nav-link" href="#">login</a>
+                </span>
+                <span class="navbar-text">
+                    <a class="nav-link" href="#">sign up</a>
+                </span>
+              </div>
             </div>
-        </div>
+          </nav>
+    </header>
+
+    <aside id="content">
+        <span>
+            <h1 class="text-uppercase">
+                play tradition game
+            </h1>
+            <h3>
+                Experience new traditional game play
+            </h3>
+        </span>
+        <button type="button" class="btn btn-warning text-uppercase text-black fw-bold">play now</button>
+        <span class="navbar-text">
+          <a class="nav-link text-white text-uppercase" href="#">the story</a>
+          <i class="fa-solid fa-caret-down fa-2xl fa-white"></i>
+        </span>
     </aside>
 
-    <aside id="games">
-        <div class="container">
-            <div class="row">
-                <div class="col-4">
-                    <p>who the special</p>
-                    <h1>the games</h1>
-                </div>
-                <div class="col-7">
-                    <img src="assets/gunting.jpg">
-                </div>
-            </div>
-        </div>
-    </aside>
 
 
-    <!-- integrasi bootstrap -->
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
-</body>
+    -->
+  </body>
 </html>
