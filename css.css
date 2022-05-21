@@ -47,3 +47,15 @@ nav li {
     margin-top: 30%;
     left: 42%;
 }
+
+@media screen and (max-width:1000px) { 
+    #content {
+        position: absolute;
+        top: 15%;
+        left: 10%;
+    }
+    #content h1,h3 {
+        color: white;
+        font-size: 30px;
+    }
+}
