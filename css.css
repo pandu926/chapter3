@@ -1,6 +1,7 @@
 body {
     background-image: url(bg.png);
     background-size: 100%;
+    background-repeat: no-repeat;
     width: auto;
     height: auto;
 }
@@ -113,4 +114,47 @@ border: none;
     
     color: #FFFFFF;
 
+}
+
+#games {
+background-image: url(assets/the-games-bg.jpg);
+background-size: cover;
+position: absolute;
+width: 100%;
+height: 900.33px;
+left: -1.55px;
+top: 800.58px;
+}
+
+#games p, h1 {
+position: absolute;
+left: 5.7%;
+right: 76.09%;
+top: 28.48%;
+bottom: 68.64%;
+
+font-family: 'Arial';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 28px;
+letter-spacing: 2px;
+
+color: #FFFFFF;
+}
+
+#games h1 {
+    font-size: 50px;
+    line-height: 64px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    left: 10%;
+    top: 35%;
+    background-color: blue;
+}
+
+#games img {
+    margin-top: 300px;
+    width: 700px;
+    height: 400px;
 }
