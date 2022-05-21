@@ -6,6 +6,7 @@ header {
 #ph-bg {
     opacity: 0;
 }
+
 nav {
     opacity: 0.6;
 }
@@ -60,7 +61,7 @@ nav li {
     }
     #content {
         position: absolute;
-        top: 10%;
+        top: 40%;
         left: 10%;
     }
     #content h1,h3 {
