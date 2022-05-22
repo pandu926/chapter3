@@ -61,7 +61,7 @@ nav li {
     }
     #content {
         position: absolute;
-        top: 40%;
+        top: 30%;
         left: 10%;
     }
     #content h1,h3 {
@@ -73,14 +73,14 @@ nav li {
         left: 15%;
     }
     #content button {
-        margin-top: 70px;
+        margin-top: 90px;
         margin-left: 25%;
         width: 150px;
         height: 30px;
     }
     #content .navbar-text {
         position: absolute;
-        margin-top: 50%;
+        margin-top: 80%;
         left: 33%;
         font-size: 10px;
     }
