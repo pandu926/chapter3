@@ -103,12 +103,13 @@ nav li {
         font-size: 10px;
     }
     #content2 {
-        top: 130%;
+        top: 100%;
     }
     #content2 .container {
         top: 100px;
       }
     #content2 span {
         font-size: 15px;
+        margin-left: 1px;
     }
 }
