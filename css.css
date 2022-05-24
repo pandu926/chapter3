@@ -2,10 +2,13 @@ nav {
     width: 100%;
     z-index: 100;
 }
+#ph {
+  opacity: 0;
+}
 #depan {
     height: 300px;
     left: 20vw;
-    top: 20%;
+    top: 15vw;
     z-index: 4;
     text-align: center;
 }
@@ -94,11 +97,12 @@ nav {
   }
   
 @media screen and (max-width:1100px) { 
-    #web-bg {
+    #web {
         opacity: 0;
     }
-    #ph-bg {
-        opacity: 1 ;
+    #phone {
+        opacity: 1;
+
     }
     #content {
         position: absolute;
