@@ -97,9 +97,7 @@ nav {
   }
   
 @media screen and (max-width:1100px) { 
-    #web {
-        opacity: 0;
-    }
+
     #phone {
         opacity: 1;
 
