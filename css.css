@@ -1,5 +1,4 @@
-header {
-    background-image: url(assets/main-bg.jpg);
+/* header {
     background-repeat: no-repeat;
     background-size: auto;
 }
@@ -9,11 +8,9 @@ header {
 
 nav {
     opacity: 0.6;
+    z-index: 1000;
 }
-header nav .nav-link {
-    color: white;
-    opacity: 1;
-}
+
 a:hover{
     color: white;
 }
@@ -23,9 +20,9 @@ a:hover{
 nav li {
     padding-left: 20px;
     font-size: 15px;
-}
+} */
 #content {
-    position: absolute;
+    position: relative;
     top: 30%;
     left: 20%;
 }
@@ -38,7 +35,6 @@ nav li {
     font-size: 23px;
     font-weight: 400;
     left: 25%;
-    position: absolute;
 }
 #content button {
     margin-top: 100px;
@@ -47,16 +43,12 @@ nav li {
     height: 55px;
 }
 #content .navbar-text {
-    position: absolute;
     margin-top: 30%;
     left: 42%;
 }
 
-#content2 {
-    top: 135%;
 
-  }
-  #content2 .container {
+#content2 .container {
     top: 300px;
   }
 #content2 span {
@@ -70,6 +62,67 @@ nav li {
     
 }
 
+  #content2 .container {
+    top: 300px;
+  }
+#content3 span {
+    color: #ffffff;
+    margin-left: 100px;
+    font-size: 50px;
+}
+#content3 span p {
+    font-size: 15px;
+    margin-left: 100px;
+}
+
+#feature {
+    height: 400px;
+    width: 500px;
+    top: 10%;
+    left: 50%;
+    background-color: #ee0000;
+}
+.timeline {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-self: center;
+    position: relative;
+    height: 250px;
+  }
+  .ellipse-full-timeline {
+    top: 3%;
+    left: 0;
+    position: absolute;
+  }
+  .v-line {
+    border-left: thin solid #fff;
+    height: 140px;
+    top: 8px;
+    left: 8px;
+    position: absolute;
+  }
+  
+  .ellipse-outline-timeline {
+    bottom: 35%;
+    position: absolute;
+  }
+  
+  .ellipse-second-outline-timeline {
+    bottom: 11%;
+    position: absolute;
+  }
+  
+  .timeline-title-container {
+    width: 50%;
+    margin-left: 4em;
+  }
+  
+  .timeline-title {
+    font-size: 24px;
+    color: #F0AD45;
+  }
+  
 @media screen and (max-width:1100px) { 
     #web-bg {
         opacity: 0;
