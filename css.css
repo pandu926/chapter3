@@ -1,52 +1,20 @@
-/* header {
-    background-repeat: no-repeat;
-    background-size: auto;
-}
-#ph-bg {
-    opacity: 0;
-}
-
 nav {
-    opacity: 0.6;
-    z-index: 1000;
+    width: 100%;
 }
-
-a:hover{
-    color: white;
-}
-#navbarText ul {
-    margin-left: 20%;
-}
-nav li {
-    padding-left: 20px;
-    font-size: 15px;
-} */
-#content {
-    position: relative;
-    top: 30%;
+#depan {
+    height: 300px;
     left: 20%;
+    top: 20%;
+    z-index: 4;
+    text-align: center;
 }
-#content h1,h3 {
-    color: white;
+#depan h1 {
     font-size: 70px;
+    color: white;
 }
-#content h3 {
-    margin-top: 20px;
-    font-size: 23px;
-    font-weight: 400;
-    left: 25%;
+#depan h4{
+    color: #fff;
 }
-#content button {
-    margin-top: 100px;
-    margin-left: 33%;
-    width: 250px;
-    height: 55px;
-}
-#content .navbar-text {
-    margin-top: 30%;
-    left: 42%;
-}
-
 
 #content2 .container {
     top: 300px;
