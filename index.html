@@ -18,13 +18,12 @@
         <!-- <img id="web-bg" src="bg.png" alt="" class="img-fluid position-absolute">
         <img id="ph-bg" src="bg-phone.jpg" alt="" class="img-fluid position-relative">
          -->
-
+            
             <img id="web" src="./assets/main-bg.jpg" class="img-fluid">
-            <!-- <img id="ph" src="bg-phone.jpg" class="img-fluid opacity-0"> -->
             <nav class="navbar navbar-expand-lg bg-black text-uppercase fw-bold position-absolute">
               <div class="container">
                 <a class="navbar-brand " href="#">LOGO</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <button class="navbar-toggler navbar-light bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
                   <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarText">
@@ -69,39 +68,34 @@
 
 
 
-    <aside id="content2" class="d-flex position-absolute">
+    <aside id="content2" class="d-flex position-relative">
       <img src="./assets/the-games-bg.jpg" class="img-fluid">
       <div class="container justify-content-center position-absolute">
         <div class="row">
-          <div class="col">
+          <div class="col-4 ">
             <span><p>What's so the special?</p></span>
             <span class="text-uppercase ">the games</span>
           </div>
-          <div class="col">
-            <img src="./assets/gunting.jpg" class="img-fluid">
+          <div class="col-6 offset-1 position-relative d-flex align-items-center justify-content-center ">
+            <img src="assets/switch-left.svg"  class="img-fluid" >
+            <img id="games" src="./assets/gunting.jpg" class="img-fluid">
+            <img src="assets/switch-right.svg" class="img-fluid">
+            <div id="slider" class="d-flex position-absolute ">
+                <img src="./assets/ellipse.svg">
+                <img src="./assets/ellipse-outline.svg">
+                <img src="./assets/ellipse-outline.svg">
+                <img src="./assets/ellipse-outline.svg">
+                <img src="./assets/ellipse-outline.svg">
+            </div>
           </div>
         </div>
       </div>
     </aside>
 
-    <aside id="content2" class="d-flex position-relative">
-      <img src="./assets/the-games-bg.jpg" class="img-fluid">
-      <!-- <div class="container justify-content-center position-absolute">
-        <div class="row">
-          <div class="col">
-            <span><p>What's so the special? </p></span>
-            <span class="text-uppercase ">the games</span>
-          </div>
-          <div class="col">
-            <img src="./assets/gunting.jpg" class="img-fluid">
-          </div>
-        </div>
-      </div>
-    </aside>
 
     <aside id="content3" class="d-flex position-relative">
       <img src="./assets/features.jpg" class="img-fluid">
-      <div id="feature" class="position-absolute">
+      <!-- <div id="feature" class="position-absolute">
         <h5>What's so the special?</h5>
         <h1 class=text-uppercase>features</h1>
         <div class="d-flex flex-row">

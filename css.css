@@ -7,7 +7,7 @@ nav {
 nav .navbar-brand {
   font-size: 1.7vw;
 }
-#ph {
+ #ph {
   opacity: 0;
 }
 #depan {
@@ -16,6 +16,9 @@ nav .navbar-brand {
     top: 15vw;
     z-index: 4;
     text-align: center;
+}
+nav .navbar-toggler-icon {
+  background-image: url(assets/celk.svg);
 }
 #depan h1 {
     font-size: 6vw;
@@ -28,23 +31,48 @@ nav .navbar-brand {
 #depan button {
   font-size: 1.5vw;
 }
-#content2 .container {
-    top: 300px;
-  }
-#content2 span {
-    color: #ffffff;
-    margin-left: 100px;
-    font-size: 50px;
-}
-#content2 span p {
-    font-size: 15px;
-    margin-left: 100px;
-    
+#depan a {
+
+  font-size: 2vw;
 }
 
-  #content2 .container {
-    top: 300px;
-  }
+#content2 .container {
+  z-index: 2;
+  position: absolute;
+  top: 20vw;
+  
+}
+#content2 span {
+    top: -3vw;
+    color: #ffffff;
+    position: absolute;
+    margin-left: 3vw;
+    font-weight: 400;
+    font-family: arial;
+    font-size: 4.3vw;
+    top: -2vw;
+    
+    
+}
+#content2 span p {
+  
+  margin-top: -2vw;
+    font-size: 1.7vw;
+    margin-left: 0.5vw;
+    
+}
+#games {
+  margin-left: 1vw;
+  margin-right: 1vw;
+}
+#slider {
+  top: 90%;
+}
+#slider img {
+  padding-left: 1vw;
+  width: 2vw;
+  height: 2vw;
+}
 #content3 span {
     color: #ffffff;
     margin-left: 100px;
@@ -109,7 +137,10 @@ nav .navbar-brand {
         opacity: 1;
 
     }
-    #content {
+    nav #ph {
+      opacity: 1;
+    }
+    /* #content {
         position: absolute;
         top: 30%;
         left: 8%;
@@ -147,5 +178,5 @@ nav .navbar-brand {
     #content2 span p {
         font-size: 10px;
         margin-left: 1px;
-    }
+    } */
 }
