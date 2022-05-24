@@ -3,13 +3,13 @@ nav {
 }
 #depan {
     height: 300px;
-    left: 20%;
+    left: 20vw;
     top: 20%;
     z-index: 4;
     text-align: center;
 }
 #depan h1 {
-    font-size: 70px;
+    font-size: 6vw;
     color: white;
 }
 #depan h4{
