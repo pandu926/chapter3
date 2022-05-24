@@ -2,6 +2,8 @@ nav {
     width: 100%;
     z-index: 100;
     font-size: 1.3vw;
+    height: 6vw;
+    justify-content: center;
 }
 nav .navbar-brand {
   font-size: 1.7vw;
