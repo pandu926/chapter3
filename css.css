@@ -86,45 +86,59 @@ nav .navbar-toggler-icon {
     width: 500px;
     top: 10%;
     left: 50%;
-    background-color: #ee0000;
 }
-.timeline {
+#feature h5  {
+  color: #fff;
+}
+#feature h1 {
+  color:#fff
+}
+#feature .roadmap-subtlite {
+  color: #fff;
+}
+.roadmap {
     display: flex;
     flex-direction: column;
     justify-content: start;
     align-self: center;
     position: relative;
-    height: 250px;
+    height: 21vw;
   }
-  .ellipse-full-timeline {
+  .circle {
     top: 3%;
     left: 0;
     position: absolute;
   }
   .v-line {
     border-left: thin solid #fff;
-    height: 140px;
+    height: 12vw;
     top: 8px;
     left: 8px;
     position: absolute;
   }
-  
-  .ellipse-outline-timeline {
+  footer {
+    width: 90%;
+    border-top: thin solid #fff;
+    top: 95%;
+    left: 5vw;
+    position: absolute;
+  }
+  .circle1 {
     bottom: 35%;
     position: absolute;
   }
   
-  .ellipse-second-outline-timeline {
+  .circle2 {
     bottom: 11%;
     position: absolute;
   }
   
-  .timeline-title-container {
+  .roadmap-title-container {
     width: 50%;
     margin-left: 4em;
   }
   
-  .timeline-title {
+  .roadmap-title {
     font-size: 24px;
     color: #F0AD45;
   }
@@ -157,6 +171,17 @@ nav .navbar-toggler-icon {
   #footer-content img{
     width: 25vw;
   }
+  #contact {
+    top: 90%;
+    left: 20%;
+  }
+  #contact .container a {
+    padding-left: 3vw;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+
 @media screen and (max-width:1100px) { 
 
     /* #content {
